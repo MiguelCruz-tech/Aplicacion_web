@@ -2,14 +2,15 @@
   "name": "aplica_web",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "scripts": {
+  "main": "app.js", 
+  "type": "module",
+  "scripts": { 
+    "start": "node app.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
